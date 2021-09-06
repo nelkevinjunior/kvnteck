@@ -1,0 +1,79 @@
+/*-----------------
+* [Green Color Stylesheet]
+*
+* KVN Tech - kvntechnology.com
+* Theme    : KVN Teck
+* Version  : 1.0
+* Author   : Nel-Kevin
+*/
+
+::-webkit-scrollbar{
+    width: 4px;
+    color:darkblue;
+}
+::-webkit-scrollbar-thumb {
+    background: darkblue; 
+    border-radius: 4px;
+    width: 4px;
+  }
+  #breaker{
+      background-color: darkblue;
+  }
+  .color{
+      color: darkblue;
+  }
+  #about-content a{
+      color:darkblue ;
+  }
+  .cv a button{
+      background: darkblue;
+  }
+  .service-img img{
+    background: darkblue;
+    box-shadow:0px 0px 0px 0px darkblue ;
+  }
+  .service:hover .service-img img{
+    box-shadow:0px 0px 0px 400px darkblue ;
+}
+.html-progress{
+    background: darkblue;
+}
+.js-progress{
+    background: darkblue;
+}
+.adobe-progress{
+    background: darkblue;
+}
+.php-progress{
+    background: darkblue;
+}
+.jquery-progress{
+    background: darkblue;
+}
+.seo-progress{
+    background: darkblue;
+}
+.portfolio-text h2{
+    color: darkblue;
+}
+.portfolio-text button{
+    color: darkblue;
+    border: 1.5px solid darkblue;
+}
+.portfolio-text button::before{
+    background: darkblue;
+}
+.portfolio-image img::before{
+    background: darkblue;
+}
+.blog-date{
+    background: darkblue;
+}
+form button{
+    background: darkblue;
+}
+@media all and (max-width: 550px) and (min-width: 5px){
+    .service:hover .service-img img{
+        box-shadow:0px 0px 0px 0px #c70039 ;
+    }
+}
