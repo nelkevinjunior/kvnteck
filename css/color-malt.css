@@ -1,0 +1,79 @@
+/*-----------------
+* [Malt Color Stylesheet]
+*
+* KVN Tech - kvntechnology.com
+* Theme    : KVN Teck
+* Version  : 1.0
+* Author   : Nel-Kevin
+*/
+
+::-webkit-scrollbar{
+    width: 4px;
+    color:cyan;
+}
+::-webkit-scrollbar-thumb {
+    background: cyan; 
+    border-radius: 4px;
+    width: 4px;
+  }
+  #breaker{
+      background-color: cyan;
+  }
+  .color{
+      color: cyan;
+  }
+  #about-content a{
+      color:cyan ;
+  }
+  .cv a button{
+      background: cyan;
+  }
+  .service-img img{
+    background: cyan;
+    box-shadow:0px 0px 0px 0px cyan ;
+  }
+  .service:hover .service-img img{
+    box-shadow:0px 0px 0px 400px cyan ;
+}
+.html-progress{
+    background: cyan;
+}
+.js-progress{
+    background: cyan;
+}
+.adobe-progress{
+    background: cyan;
+}
+.php-progress{
+    background: cyan;
+}
+.jquery-progress{
+    background: cyan;
+}
+.seo-progress{
+    background: cyan;
+}
+.portfolio-text h2{
+    color: cyan;
+}
+.portfolio-text button{
+    color: cyan;
+    border: 1.5px solid cyan;
+}
+.portfolio-text button::before{
+    background: cyan;
+}
+.portfolio-image img::before{
+    background: cyan;
+}
+.blog-date{
+    background: cyan;
+}
+form button{
+    background: cyan;
+}
+@media all and (max-width: 550px) and (min-width: 5px){
+    .service:hover .service-img img{
+        box-shadow:0px 0px 0px 0px #c70039 ;
+    }
+}

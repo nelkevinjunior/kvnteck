@@ -1,0 +1,79 @@
+/*-----------------
+* [Red Color Stylesheet]
+*
+* KVN Tech - kvntechnology.com
+* Theme    : KVN Teck
+* Version  : 1.0
+* Author   : Nel-Kevin
+*/
+
+::-webkit-scrollbar{
+    width: 4px;
+    color:darkred;
+}
+::-webkit-scrollbar-thumb {
+    background: darkred; 
+    border-radius: 4px;
+    width: 4px;
+  }
+  #breaker{
+      background-color: darkred;
+  }
+  .color{
+      color: darkred;
+  }
+  #about-content a{
+      color:darkred ;
+  }
+  .cv a button{
+      background: darkred;
+  }
+  .service-img img{
+    background: darkred;
+    box-shadow:0px 0px 0px 0px darkred ;
+  }
+  .service:hover .service-img img{
+    box-shadow:0px 0px 0px 400px darkred ;
+}
+.html-progress{
+    background: darkred;
+}
+.js-progress{
+    background: darkred;
+}
+.adobe-progress{
+    background: darkred;
+}
+.php-progress{
+    background: darkred;
+}
+.jquery-progress{
+    background: darkred;
+}
+.seo-progress{
+    background: darkred;
+}
+.portfolio-text h2{
+    color: darkred;
+}
+.portfolio-text button{
+    color: darkred;
+    border: 1.5px solid darkred;
+}
+.portfolio-text button::before{
+    background: darkred;
+}
+.portfolio-image img::before{
+    background: darkred;
+}
+.blog-date{
+    background: darkred;
+}
+form button{
+    background: darkred;
+}
+@media all and (max-width: 550px) and (min-width: 5px){
+    .service:hover .service-img img{
+        box-shadow:0px 0px 0px 0px darkred ;
+    }
+}
